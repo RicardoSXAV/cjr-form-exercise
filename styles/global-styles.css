@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: url(../assets/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+*,
+button,
+input {
+  font-family: "Poppins", sans-serif;
+
+  border: 0;
+  outline: 0;
+}

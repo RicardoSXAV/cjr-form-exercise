@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+
+    <title>Formulário | Seja um astronauta</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/global-styles.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
+  </head>
+  <body>
+    <div class="wrap-container">
+      <div class="illustration-container">
+        <img
+          src="./assets/astronaut-illustration.svg"
+          alt="Ilustração de astronauta"
+        />
+      </div>
+      <div class="form-container">
+        <div class="form-box">
+          <h1>Torne-se um astronauta! 🚀</h1>
+          <p>
+            Se você tem interesse em se tornar um profissional no espaço, essa
+            pode ser a sua oportunidade!
+          </p>
+          <form class="form-area" action="success-screen.html">
+            <label for="full-name">Nome completo</label>
+            <input
+              id="full-name"
+              type="text"
+              placeholder="Nome completo"
+              required
+            />
+
+            <label for="birth-date">Data de nascimento</label>
+            <input
+              id="birth-date"
+              type="date"
+              placeholder="Número de telefone"
+              required
+            />
+
+            <label for="email">Endereço de e-mail</label>
+            <input id="email" type="email" placeholder="E-mail" required />
+
+            <label for="motivation"
+              >Escreva suas motivações para se tornar astronauta</label
+            >
+            <textarea
+              id="motivation"
+              minlength="50"
+              maxlength="1000"
+              placeholder="Por que quero ser astronauta?"
+              required
+            ></textarea>
+
+            <button type="submit">Completar inscrição</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
